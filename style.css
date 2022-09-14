@@ -127,7 +127,7 @@ h2 {
   width: 50%;
   bottom: 6rem;
   justify-content: center;
-  margin-left: 62%;
+  margin-left: 63%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -137,14 +137,14 @@ h2 {
 
 .clicked .shareCard::after {
   content: "";
-  height: 2.6rem;
-  width: 3rem;
-  background-position: centehr;
+  height: 2rem;
+  width: 100%;
+  background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  background-size: cover;
-  bottom: -1.5rem;
-  left: 43%;
+  background-size: contain;
+  bottom: -1.35rem;
+  left: 0;
   background-image: url("images/icon-arrow.svg");
 }
 .clicked .sharebtn {
@@ -228,12 +228,6 @@ h2 {
 
   .clicked .sharebtn {
     margin-inline-end: 2rem;
-    background-color: var(--Desaturated-Dark-Blue);
-  }
-
-  .clicked .sharebtn img {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(134deg)
-      brightness(108%) contrast(102%);
   }
 
   .clicked .shareCard::after {
