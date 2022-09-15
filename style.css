@@ -191,6 +191,8 @@ h2 {
   .mainImg img {
     height: 12rem;
     width: 100%;
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 1rem;
   }
 
   .profile {
